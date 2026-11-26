@@ -1,0 +1,21 @@
+{
+"sources":["Ashtanga Hridaya, Sutrasthana 3 (Ritucharya)","Charaka Samhita, Sutrasthana 6 (Tasyashitiya)","ICMR-NIN Dietary Guidelines for Indians","Regional food traditions of Karnataka, Maharashtra, Gujarat and Rajasthan"],
+"seasons":{
+ "summer":{"name":"Grishma (summer)","principle":"Classical texts advise sweet, light, cooling and well-hydrated foods, as the heat depletes the body.","favour":"Ragi ambli or porridge, jowar, buttermilk, gourds, cucumber","avoid":"Very spicy, oily or heavy fried food"},
+ "monsoon":{"name":"Varsha (monsoon)","principle":"Digestion is weak in the rains, so the texts advise warm, freshly cooked, light food with mild spices like ginger and cumin.","favour":"Warm jowar and bajra rotis, moong dal, drumstick, ivy gourd","avoid":"Raw salads, stale or cold food"},
+ "winter":{"name":"Hemanta-Shishira (winter)","principle":"Strong digestion in the cold months suits nourishing, warming and unctuous food, such as grains with a little ghee or sesame.","favour":"Bajra, ragi, methi, palak, carrot, horse gram, ghee","avoid":"Cold drinks and excessively light, dry meals"}},
+"grains":{
+ "ragi":{"lore":"Ragi is a traditional Kudhanya (coarse grain), the staple of Karnataka mudde, and is cooling and filling, with exceptional calcium."},
+ "jowar":{"lore":"Jowar is the daily bhakri grain of Maharashtra and Karnataka, light on the stomach and suited to most seasons."},
+ "bajra":{"lore":"Bajra is the winter grain of Gujarat and Rajasthan, valued as warming and strengthening, and rich in iron."}},
+"pulses":{
+ "moong":{"lore":"Moong is regarded in Ayurveda as one of the lightest, easiest-to-digest pulses."},
+ "toor":{"lore":"Toor dal is the everyday dal of western and southern India and balances the grain's amino acids."},
+ "chana":{"lore":"Chana dal adds fibre and sustained energy, common in Maharashtrian and Gujarati cooking."},
+ "horse":{"lore":"Horse gram (kulthi, hurali) is a traditional warming pulse of Karnataka and Tamil Nadu, high in calcium and iron."}},
+"principles":[
+ "Millet plus pulse is the traditional khichdi logic: grains are low in lysine and pulses supply it, so together they form a better protein.",
+ "Fermenting or soaking (ragi dosa, ambli, idli) is traditionally used to make grains easier to digest and minerals easier to absorb.",
+ "Add a sour or vitamin C source like lemon or raw mango to improve absorption of iron from millets and greens.",
+ "Eat local and seasonal: the vegetables of the season are the ones the body needs in that season."]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Millet Thali | AI × Indian Knowledge Systems</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-season="winter">
+<header class="hero">
+  <div class="wrap">
+    <div class="brand"><span class="logo"></span>Millet Thali<em>AI × Indian Knowledge Systems</em></div>
+    <div class="hero-in">
+      <div>
+        <h1>Eat the season. Eat the grain your grandmother knew.</h1>
+        <p>Ragi, jowar and bajra, paired with local pulses and seasonal vegetables, planned with ritucharya wisdom and explained by a local AI.</p>
+      </div>
+      <div class="grains" aria-hidden="true"><span class="g ragi"></span><span class="g jowar"></span><span class="g bajra"></span></div>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+  <section class="panel" aria-label="Preferences">
+    <fieldset><legend>Season</legend><div class="chips" id="season"></div></fieldset>
+    <fieldset><legend>Millet</legend><div class="chips" id="grain"></div></fieldset>
+    <fieldset><legend>Pulse</legend><div class="chips" id="pulse"></div></fieldset>
+    <div class="actions">
+      <button class="btn primary" id="go">Plan my day</button>
+      <button class="btn" id="print">Print plan</button>
+    </div>
+  </section>
+  <section id="tip" class="wisdom"></section>
+  <section id="meals" class="meals" aria-live="polite"></section>
+  <section class="total" aria-label="Daily nutrition">
+    <div class="score"><div class="ring" id="ring"><b id="scoreNum">0</b></div><p>Balance score<br><small>Share of daily needs these meals cover</small></p></div>
+    <div class="bars" id="bars"></div>
+  </section>
+  <section class="ai" id="ai">
+    <h2>Ask the AI nutritionist</h2>
+    <p>Runs on your own computer through Ollama, grounded in the traditional knowledge base.</p>
+    <div class="chips" id="ideas"></div>
+    <div class="askrow"><textarea id="q" rows="2" placeholder="e.g. Diabetic, vegetarian, Karnataka, monsoon: plan my day"></textarea>
+    <button class="btn gold" id="ask">Ask AI</button></div>
+    <div class="answer" id="answer" aria-live="polite"></div>
+  </section>
+  <section class="iks">
+    <h2>Principles behind the plan</h2>
+    <ul id="principles"></ul>
+    <p class="src" id="sources"></p>
+  </section>
+  <p class="note">Nutrient values are approximate (ICMR-NIN style figures). General guidance, not medical advice.</p>
+</main>
+<script src="data.js"></script>
+<script src="ai.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
